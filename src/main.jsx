@@ -18,10 +18,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <BrowserRouter>
         <Routes>
           <Route element={<App />}>
-            <Route path="/" element={<Home />} />
-            <Route path="movie/:id" element={<Movie />} />
-            <Route path="search" element={<Search />} />
-            <Route path="watchlist" element={<Watchlist />} />
+            <Route path="/watchnext" element={<Home />} />
+            <Route path="/watchnext/movie/:id" element={<Movie />} />
+            <Route path="/watchnext/search" element={<Search />} />
+            <Route path="/watchnext/watchlist" element={<Watchlist />} />
           </Route>
         </Routes>
       </BrowserRouter>
